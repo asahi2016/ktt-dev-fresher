@@ -48,7 +48,7 @@ color:#999999;
     echo '<p><b>Locale : </b>' . $_SESSION['google_data']['locale'].'</p>';
     echo '<p><b>Google+ Link : </b>' . $_SESSION['google_data']['link'].'</p>';
     echo '<p><b>You are login with : </b>Google</p>';
-    echo '<p><b>Logout from <a href="../googleapi/logout.php?logout">Google</a></b></p>';
+    echo '<p><b>Logout from <a href="logout.php?logout">Google</a></b></p>';
     echo '</div>';
     ?>
 </div>
