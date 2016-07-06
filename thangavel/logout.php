@@ -1,5 +1,5 @@
 <?php
-include_once("config.php");
+include_once("/opt/lampp/htdocs/ktt-dev-fresher/googleapi/src/config.php");
 if(array_key_exists('logout',$_GET))
 {
 	unset($_SESSION['token']);
