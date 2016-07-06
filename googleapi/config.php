@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-include_once(DOCUMENT_ROOT_DIR. "/googleapi/src/Google_Client.php");
-include_once(DOCUMENT_ROOT_DIR ."/googleapi/src/contrib/Google_Oauth2Service.php");
+include_once( "/opt/lampp/htdocs/twitterbots/googleapi/src/Google_Client.php");
+include_once("/opt/lampp/htdocs/twitterbots/googleapi/src/contrib/Google_Oauth2Service.php");
 ######### edit details ##########
 $clientId = CLIENT_API_KEY; //Google CLIENT ID
 $clientSecret = CLIENT_SECRET_KEY; //Google CLIENT SECRET
