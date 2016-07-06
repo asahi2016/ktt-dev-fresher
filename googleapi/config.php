@@ -1,12 +1,13 @@
 <?php
 session_start();
-include_once("src/Google_Client.php");
-include_once("src/contrib/Google_Oauth2Service.php");
+
+include_once(DOCUMENT_ROOT_DIR. "/googleapi/src/Google_Client.php");
+include_once(DOCUMENT_ROOT_DIR ."/googleapi/src/contrib/Google_Oauth2Service.php");
 ######### edit details ##########
-$clientId = '649667848227-uetg3tj4t415k7iakukd7kl8tbqgkm8j.apps.googleusercontent.com'; //Google CLIENT ID
-$clientSecret = 'uXVPk-SOD8M-2vMcwf0GOV-3'; //Google CLIENT SECRET
-$redirectUrl = 'http://localhost/twitterbots/Bragadeesh/index.php';  //return url (url to script)
-$homeUrl = 'http://localhost/twitterbots/Bragadeesh';  //return to home
+$clientId = CLIENT_API_KEY; //Google CLIENT ID
+$clientSecret = CLIENT_SECRET_KEY; //Google CLIENT SECRET
+$redirectUrl = REDIRECT_URL;  //return url (url to script)
+$homeUrl = HOME_URL;  //return to home
 
 ##################################
 
